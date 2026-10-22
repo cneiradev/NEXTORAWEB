@@ -2,12 +2,12 @@ import Link from "next/link";
 
 const productos = [
   {
-    title: "Gestión de Operaciones",
+    title: "Archivador Digital - Prevención de Riesgos",
     description:
-      "Plataforma web para organizar documentos, procesos y control operativo desde cualquier dispositivo.",
-    icon: "📊",
+      "Carpeta digital para la gestión documental de prevención de riesgos: empresas, trabajadores, contratistas, checklists y documentos.",
+    icon: "📁",
     status: "Disponible",
-    href: "/productos/gestion-operaciones",
+    href: "/productos/archivador-digital-prevencion-riesgos",
   },
   {
     title: "Calidad Plywood",

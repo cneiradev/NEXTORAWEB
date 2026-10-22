@@ -2,27 +2,27 @@ import type { Metadata } from "next";
 import { ProductoTemplate, type ProductoData } from "@/components/ProductoTemplate";
 
 export const metadata: Metadata = {
-  title: "Gestión de Operaciones — NEXORA TECH",
+  title: "Archivador Digital - Prevención de Riesgos — NEXORA TECH",
   description:
-    "Plataforma web para organizar documentos, procesos y control operativo desde cualquier dispositivo.",
+    "Carpeta digital de prevención: empresas, trabajadores, contratistas, checklists y documentos.",
 };
 
 const producto: ProductoData = {
-  slug: "gestion-operaciones",
-  nombre: "Gestión de Operaciones",
+  slug: "archivador-digital-prevencion-riesgos",
+  nombre: "Archivador Digital - Prevención de Riesgos",
   descripcionCorta:
-    "Plataforma web para organizar documentos, procesos y control operativo de tu empresa desde cualquier dispositivo.",
-  mockupUrl: "app.nexoratech.com",
+    "Carpeta digital para la gestión documental de prevención de riesgos: empresas, trabajadores, contratistas, checklists y documentos en un solo lugar. (Demo sujeta a modificaciones según requiera el cliente.)",
+  mockupUrl: "prevencion.nexoratech.com",
   bloques: [
     {
       titulo: "Dashboard con indicadores en tiempo real",
       texto:
-        "Visualiza el estado de toda tu operación de un vistazo. El dashboard se actualiza automáticamente con los datos más recientes de tu empresa.",
+        "Visualiza el estado de toda tu prevención de un vistazo: documentos, checklists y empresas.",
       checks: [
         "Indicadores clave actualizados al instante",
         "Gráficos de tendencia y progreso",
         "Alertas y notificaciones personalizables",
-        "Filtros por empresa, área y fecha",
+        "Filtros por empresa y fecha",
       ],
       mockup: "dashboard",
       tamanoGrande: true,
@@ -30,7 +30,7 @@ const producto: ProductoData = {
     {
       titulo: "Administra más de una empresa",
       texto:
-        "Gestiona múltiples empresas o clientes desde una sola cuenta, con permisos y espacios de trabajo independientes para cada uno.",
+        "Gestiona múltiples empresas o clientes desde una sola cuenta, con permisos y espacios independientes.",
       checks: [
         "Cambios rápidos entre empresas",
         "Permisos y roles por organización",
@@ -41,13 +41,13 @@ const producto: ProductoData = {
       invertido: true,
     },
     {
-      titulo: "Documentos y procesos en un solo lugar",
+      titulo: "Documentos y checklists en un solo lugar",
       texto:
-        "Centraliza toda tu documentación operativa. Sube, clasifica y encuentra cualquier documento en segundos, sin importar dónde estés.",
+        "Centraliza toda tu documentación de prevención. Sube, clasifica y encuentra cualquier documento en segundos.",
       checks: [
         "Búsqueda instantánea por etiquetas",
         "Historial de versiones automático",
-        "Checklists digitales desde el móvil",
+        "Checklists EMP / TRAB / CON desde el móvil",
         "Acceso seguro desde cualquier dispositivo",
       ],
       mockup: "mobile",
@@ -56,10 +56,10 @@ const producto: ProductoData = {
     {
       titulo: "Reportes ejecutivos listos para descargar",
       texto:
-        "Genera reportes automáticos con la información que necesitas para tomar decisiones. Exportables en PDF y Excel.",
+        "Genera reportes automáticos con la información que necesitas para auditorías y toma de decisiones.",
       checks: [
         "Reportes programados por correo",
-        "Exportación a PDF y Excel",
+        "Exportación a PDF",
         "KPIs personalizables por rol",
         "Comparativas entre períodos",
       ],
@@ -71,26 +71,26 @@ const producto: ProductoData = {
     {
       titulo: "100% a medida",
       texto:
-        "Se configura según tus procesos reales, no al revés. Tu empresa define cómo se usa la plataforma.",
+        "Se configura según tus procesos reales de prevención, no al revés.",
     },
     {
       titulo: "Seguro y confiable",
       texto:
-        "Cifrado de datos, respaldos automáticos y control de acceso por usuario para proteger tu información.",
+        "Cifrado de datos, respaldos automáticos y control de acceso por usuario.",
     },
     {
       titulo: "Escalable",
       texto:
-        "Desde una pequeña operación hasta cientos de usuarios. La plataforma crece junto a tu empresa.",
+        "Desde una pequeña operación hasta cientos de usuarios y empresas.",
     },
   ],
   planes: [
     {
       nombre: "Básico",
       precio: "Consultar precio",
-      descripcion: "Para equipos que están empezando a digitalizar sus procesos.",
+      descripcion: "Para empresas que están empezando a digitalizar su prevención.",
       caracteristicas: [
-        "Hasta 5 empresas/clientes",
+        "Hasta 5 empresas",
         "Documentos y checklists ilimitados",
         "Soporte por correo",
       ],
@@ -98,9 +98,9 @@ const producto: ProductoData = {
     {
       nombre: "Pro",
       precio: "Consultar precio",
-      descripcion: "Para empresas en crecimiento con mayor carga operativa.",
+      descripcion: "Para empresas con mayor carga operativa y múltiples faenas.",
       caracteristicas: [
-        "Empresas/clientes ilimitados",
+        "Empresas ilimitadas",
         "Documentos y checklists ilimitados",
         "Soporte prioritario por WhatsApp",
       ],
@@ -109,6 +109,6 @@ const producto: ProductoData = {
   ],
 };
 
-export default function GestionOperaciones() {
+export default function ArchivadorDigitalPrevencionRiesgos() {
   return <ProductoTemplate producto={producto} />;
 }
