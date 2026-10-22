@@ -11,7 +11,7 @@ const menuItems = [
 ];
 
 const dropdownProducts = [
-  { name: "Gestión de Operaciones", href: "/productos/gestion-operaciones" },
+  { name: "Archivador Digital - Prevención de Riesgos", href: "/productos/archivador-digital-prevencion-riesgos" },
   { name: "Calidad Plywood", href: "/productos/calidad-plywood" },
 ];
 
